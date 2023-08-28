@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle.",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazenfteha/RabbitMQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazenfteha/RabbitMQ/issues"
+  },
+  "homepage": "https://github.com/mazenfteha/RabbitMQ#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
