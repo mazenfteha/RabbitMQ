@@ -4,7 +4,8 @@
   "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle.",
   "main": "publisher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
   },
   "repository": {
     "type": "git",
